@@ -1,0 +1,49 @@
+/* id  */
+#h1{
+    color: rgb(11, 12, 12);
+    /* font-size: 20px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+#h2{
+    color: rgb(11, 12, 12);
+    /* font-size: 20px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    border: solid slateblue 10px;
+    background-color: blanchedalmond;
+
+}
+/* //class */
+.h1{
+    color: rgb(11, 12, 12);
+    /* font-size: 20px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h2{
+    color: rgb(11, 12, 12);
+    /* font-size: 20px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* //group selector */
+h1,label,input
+{
+    background-color: rgb(212, 140, 140);
+}
+
+/* universal selector */
+*
+{
+    color: black;
+    background-color: aliceblue;
+}
+
+p::first-line
+{
+    color: rgb(9, 9, 119);
+}
+
+input:hover{
+    color: orchid;
+} 
