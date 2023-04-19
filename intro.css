@@ -1,0 +1,32 @@
+h1
+{
+    color: brown;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p
+{
+    color: rgba(215, 35, 35, 0.648);
+    font-size: 20px;
+}
+#b1{
+
+    background-color: rgb(229, 155, 58);
+    font-size: 20px;
+    border-radius: 6px;
+}
+#b1:hover{
+    opacity: 1;
+	transform: scale(1,1);
+    color: rgb(218, 78, 78);
+}
+#f1
+{
+    font-size: 20px;
+    color: rgb(47, 19, 73);
+}
+body
+{
+    border-radius: 60%; 
+    border: 3px;
+}
